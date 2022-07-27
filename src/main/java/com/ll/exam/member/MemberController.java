@@ -4,6 +4,6 @@ import com.ll.exam.Rq;
 
 public class MemberController {
     public void showLogin(Rq rq) {
-        rq.appendBody("Log-in");
+        rq.println("Log-in");
     }
 }
